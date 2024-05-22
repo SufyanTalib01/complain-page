@@ -12,21 +12,21 @@
     display: flex;
     flex-direction: column;
     /* height: 100vh; */
-    min-height: 97vh;
+    min-height: 100vh;
 }
 
 
 .nav-bar{
     height: 103px;
     display: flex;
-  
+   
     justify-content: space-between;
     padding: 20px 45px;
     background-color: #157B4C;
     /* position: absolute; */
-    left: 0;
+    /* left: 0;
     right: 0;
-    top: 0;
+    top: 0; */
 }
 
 .logo-img{
@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
-    height: 86%;
+    /* height: 86%; */
     width: 21vw;
     color: black;
     top: 110px;
@@ -67,7 +67,9 @@
     box-shadow: 1px 1px 5px 0.2px  rgb(68, 128, 68) ;
     border-radius: 6px;
     margin-top: -60px;
-    padding-bottom: 80px;
+    padding-bottom: 47px;
+    /* padding-bottom: 80px; */
+   
     margin-left: 20px;
 }
 
@@ -108,7 +110,7 @@
     gap: 30px;
     justify-content: space-between;
     padding-inline: 40px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
     
 }    
 
@@ -125,7 +127,7 @@
     background-color: white;
     border-radius: 5px;
     text-align: center;
-    /* padding-bottom: 30px; */
+    padding-bottom: 20px;
     
 }
 
@@ -172,7 +174,7 @@ td ul li{
 
 footer{
     text-align: center;
-   background-color: red;
+
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.5;
@@ -187,10 +189,20 @@ footer{
 .style-hr{
     border: 2px solid #0CBE6C;
     border-radius: 5px;
-    margin-inline: 100px;
+    margin-inline: 110px;
     margin-bottom: 30px;
     margin-top: 8px;
     
+}
+@media (min-width:627px) and (max-width:1109px){
+    .data h3{
+        font-size: 15px;
+    }
+
+    .style-hr{
+        
+        margin-inline: 40px;
+    }
 }
 
 
